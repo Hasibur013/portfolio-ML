@@ -84,8 +84,8 @@ span{
 }
 
 .home_info .btn_social {
-    display: flex;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .btn{
@@ -98,4 +98,16 @@ span{
     font-size: 16px;
     color: #1f242d;
     font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+}
+
+.home_info .btn_social .social_icons{
+    margin-top: 40px;
+    margin-left: 20px;
 }
