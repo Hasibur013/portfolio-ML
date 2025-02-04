@@ -62,18 +62,40 @@ span{
 /* Home */
 .home {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     padding: 60px 9% 0;
     color: #fff;
 }
 
 .home_info h1{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
 }
 
 .home_info h2{
-    font-size: 32px;
+    font-size: 40px;
     margin-top: -10px;
+}
+
+.home_info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home_info .btn_social {
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
 }
