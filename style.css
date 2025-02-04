@@ -62,19 +62,19 @@ span{
 /* Home */
 .home {
     display: flex;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     padding: 60px 9% 0;
     color: #fff;
 }
 
 .home_info h1{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .home_info h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -10px;
 }
 
@@ -107,7 +107,52 @@ span{
     box-shadow: none;
 }
 
+
 .home_info .btn_social .social_icons{
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.home_info .btn_social .social_icons a{
+    display: inline-flex;
+    padding: 10px;
+    border: 3px solid #7cf03d;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #7cf03d;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home_info .btn_social .social_icons a:hover{
+    background: #7cf03d;
+    color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+
+/* home img */
+.home_img .img-box{
+    width: 32vw;
+    height: 32vw;
+    background: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.home_img .img-box .img-item{   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home_img .img-box .img-item img{
+    position: absolute;
+    top: 20px;
+    display: block;
+    width: 85%;
+    object-fit: cover;
 }
