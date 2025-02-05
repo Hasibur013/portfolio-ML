@@ -64,28 +64,30 @@ span{
     display: flex;
     height: 100vh;
     align-items: center;
-    padding: 60px 9% 0;
+    padding: 120px 9% 0;
     color: #fff;
 }
 
 .home_info h1{
-    font-size: 40px;
+    font-size: 54px;
     font-weight: 700;
 }
 
 .home_info h2{
-    font-size: 30px;
+    font-size: 32px;
     margin-top: -10px;
 }
 
 .home_info p{
     font-size: 16px;
-    margin: 10px 0 25px;
+    margin: 15px 0 20px;
+    padding-right: 100px;
 }
 
 .home_info .btn_social {
     align-items: center;
     padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .btn{
