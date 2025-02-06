@@ -7,9 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* body {
-    background: #1f242d;
-} */
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --main-color: #7cf03d;
+    --white-color: #fff;
+    --disabled-color: #fff3;
+}
 
 a{
     color: #fff;
@@ -68,7 +72,6 @@ span{
 .navbar ul li a:hover, .navbar ul li a.active {
     color: #7cf03d;
 }
-
 
 /* Home */
 .home {
