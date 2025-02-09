@@ -20,7 +20,7 @@ a{
     text-decoration: none;
 }
 
-span{
+.H{
     color: #7cf03d;
 }
 
@@ -267,4 +267,29 @@ span{
     100%{
         transform: translateY(0);
     }
+}
+
+
+/* Services */
+.services {
+    background: var(--bg-color);
+    padding: 100px 9%;
+    height: 100vh;
+    color: #fff;
+}
+
+/* resume */
+.resume {
+    background: var(--bg-color);
+    padding: 100px 9%;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Footer */
+footer{
+    background: var(--bg-color);
+    padding: 50px 9%;
+    text-align: center;
+    color: #7cf03d;
 }
