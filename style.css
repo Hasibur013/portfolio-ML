@@ -279,7 +279,7 @@ a{
 }
 
 .heading{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 1.5rem;
 }
@@ -302,7 +302,7 @@ a{
 
 .services-container .services-box:hover{
     border-color: var(--main-color);
-    box-shadow: inset 0 0 10px var(--main-color);
+    box-shadow:  0 0 10px var(--main-color);
     transform: scale(1.05);
 }
 
@@ -317,7 +317,7 @@ a{
     transition: 0.5s;
 }
 
-.services-box:hover .icon :not(a, i){
+.services-box:hover .icon :not(a i){
     color: var(--main-color);
 }
 
@@ -326,6 +326,11 @@ a{
     padding: 0.5rem;
     background: var(--white-color);
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+.services-box:hover .icon a{
+    background: var(--main-color);
 }
 
 .services-box .icon a i{
@@ -334,10 +339,19 @@ a{
     transform: rotate(225deg);
 }
 
+.services-box .icon a:hover i{
+    transform: rotate(180deg);
+}
+
 .services-box h3{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 24px;
+    transition: 0.5s;
+}
+
+.services-box:hover h3{
+    color: var(--main-color);
 }
 
 .services-box p{
