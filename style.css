@@ -25,7 +25,7 @@ a{
 }
 
 
-/* Navbar */
+/* Navbar--------------------------------------------------------------------------------------------------------------- */
 .navbar{
     position: fixed;
     width: 100%;
@@ -73,7 +73,7 @@ a{
     color: #7cf03d;
 }
 
-/* Home */
+/* Home-------------------------------------------------------------------------------------------------------------- */
 .home {
     display: flex;
     height: 100vh;
@@ -189,7 +189,7 @@ a{
     box-shadow: 0 0 10px #7cf03d;
 }
 
-/* home img */
+/* home img -------------------------------------------------------------------------------*/
 .home_img .img-box{
     position: relative;
     width: 32vw;
@@ -245,7 +245,7 @@ a{
     mix-blend-mode: lighten;
 }
 
-/* bars-animation */
+/* bars-animation---------------------------------------------------------------------------------------------------- */
 .bars-animation{
     position: absolute;
     width: 100%;
@@ -270,7 +270,7 @@ a{
 }
 
 
-/* Services */
+/* Services-------------------------------------------------------------------------------------------------------------- */
 .services {
     background: var(--bg-color);
     padding: 100px 9%;
@@ -360,7 +360,7 @@ a{
 
 
 
-/* resume */
+/* resume ...................................................................................*/
 .resume {
     background: var(--bg-color);
     padding: 100px 9%;
@@ -409,7 +409,13 @@ a{
     text-align: left;
 }
 
+.resume-detail{
+    display: none;
+}
 
+.resume-detail.active{
+    display: block;
+}
 
 
 
