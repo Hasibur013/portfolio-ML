@@ -31,7 +31,7 @@ a{
     width: 100%;
     left: 0;
     top: 0;
-    padding: 25px 9%;
+    padding: 20px 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,6 +40,18 @@ a{
     opacity: 0;
     animation: showNavbar 1.5s linear forwards;
     animation-delay: 1.2s;
+}
+
+.navbar > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    padding: 10px 30px;
+    background-color: #fff1;
+    border: 1px solid var(--main-color);
+    border-radius: 1000px;
 }
 
 @keyframes showNavbar{
